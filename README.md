@@ -23,9 +23,9 @@ Below, there is a description of each field present in the *config.ini*.
 |3    | imageNetValidationDir    | Path of the directory where imagenet validation images can be found. There are 50000 images. |
 |4    | imageNet2012ValidationGroundTruthFile | Path of the file “ILSVRC2012_validation_ground_truth.txt”. This comes with ImageNet2012 validation dataset. |
 |5    | imageNet2012LabelMapFile  | Path of the file “imagenet_2012_challenge_label_map_proto.pbtxt”. This comes with the imageNet2012 validation dataset. |
-|6    | sourceIdentities   | It is a comma separated Wnids that will be taken as source classes. Note that the data will be picked based on these wnids and the path of the dataset set in datasetDir. |
+|6    | sourceIdentities   | It is a comma-separated Wnids that will be taken as source classes. Note that the data will be picked based on these wnids and the path of the dataset set in datasetDir. |
 |7    | targetIdentities   | It is comma-separated Wnids that will be taken as target classes.|
-|8    | attackModels       | Comma-separated attack Model Ids. It represents the deep model for launching the target attack. You can find the table below to select it. |
+|8    | attackModels       | Comma-separated attack Model Ids. It represents the deep model for launching the target attack. You can use the table below to select it. |
 |9   | etas               | Comma separated values of eta for each algorithm id.|
 |10   | algorithmId        | Comma-separated Algorithm IDs. These algorithms will be launched one by one on each deep models that you have selected for each pair of source and target Identities. Please see the table below to find the algorithm ids. |
 
