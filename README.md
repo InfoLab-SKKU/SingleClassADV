@@ -38,7 +38,7 @@ The algorithmIds can be selected from table below.
 |1    | LinfinityBounded        | 3            |
 |2    | L2Bounded               | 4            |
 
-and the AttackModels can be selected from below table
+and the attack models can be selected from the below table
 
 | S/N | AttackModel Description | Attack Model ID |
 | ----|-------------------------| ----------------|
