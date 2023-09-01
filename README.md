@@ -8,9 +8,7 @@ Deep learning techniques have achieved state-of-the-art performance in different
 The code is based on the CAM interpreter. The attack uses ResNet50 by default. 
 
 ## Data Downloading
-Download the ImageNet ILSVRC2012 dataset from http://image-net.org/download (training and validation dataset). One needs to 
-register before downloading. To set up the data for our code, we will create directories named by the winds, and inside each directory, there will be two folders for training and testing. The training images will be inside the training folder, and the
-validation images will become part of the testing folder.
+Download the ImageNet ILSVRC2012 dataset from http://image-net.org/download (training and validation dataset). One needs to register before downloading. To set up the data for our code, we will create directories named by the winds, and inside each directory, there will be two folders for training and testing. The training images will be inside the training folder, and the validation images will become part of the testing folder.
 
 The testing images will come from the imageNet validation dataset, which provides 50 samples for each class. The training images will
 come from the imageNet training data. This dataset can be created by picking 50 samples from each class (wnid). Once the data is in this shape, you can open the code folder and find the 
