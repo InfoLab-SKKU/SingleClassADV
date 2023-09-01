@@ -12,7 +12,7 @@ Download the ImageNet ILSVRC2012 dataset from http://image-net.org/download (tra
 register before downloading. To set up the data for our code, we will create directories named by the winds, and inside each directory, there will be two folders for training and testing. The training images will be inside the training folder, and the
 validation images will become part of the testing folder.
 
-The testing images will come from the imagenet validation dataset, which provides 50 samples for each class. The training images will
+The testing images will come from the imageNet validation dataset, which provides 50 samples for each class. The training images will
 come from the imageNet training data. This dataset can be created by picking 50 samples from each class (wnid). Once the data is in this shape, you can open the code folder and find the 
 file __config.ini__; this file has to be modified to include the relevant paths.
 
