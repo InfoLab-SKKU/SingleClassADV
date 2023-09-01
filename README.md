@@ -29,7 +29,7 @@ Below, there is a description of each field present in the *config.ini*.
 |9   | etas               | Comma separated values of eta for each algorithm id.|
 |10   | algorithmId        | Comma-separated Algorithm IDs. These algorithms will be launched one by one on each deep models that you have selected for each pair of source and target Identities. Please see the table below to find the algorithm ids. |
 
-The algorithmIds can be selected from table below.
+The algorithm Ids can be selected from the table below.
 
 | S/N | Algorithm Description   | Algorithm ID |
 | ----|-------------------------| -------------|
