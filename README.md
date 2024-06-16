@@ -70,7 +70,8 @@ We would appreciate it if you cited our work when using our code.
   year={2024},
   volume={19},
   pages={5985-5998},
-  doi={10.1109/TIFS.2024.3407652}}
+  doi={10.1109/TIFS.2024.3407652}
 }
+
 ```
 
