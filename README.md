@@ -19,7 +19,7 @@ Below, there is a description of each field present in the *config.ini*.
 | S/N | Field         | Field Description  |
 | ----|-------------| ------------------|
 |1    | saveDir       | Path of the directory where the results will be saved. The results are saved as “AdversarialAttackResults.db” |
-|2    | datasetDir    | Path of the directory where the dataset will be present, folders named by wnids and inside each folder we should have testing and training folder.  |
+|2    | datasetDir    | Path of the directory where the dataset will be present, folders named by winds, and inside each folder we should have testing and training folder.  |
 |3    | imageNetValidationDir    | Path of the directory where imagenet validation images can be found. There are 50000 images. |
 |4    | imageNet2012ValidationGroundTruthFile | Path of the file “ILSVRC2012_validation_ground_truth.txt”. This comes with ImageNet2012 validation dataset. |
 |5    | imageNet2012LabelMapFile  | Path of the file “imagenet_2012_challenge_label_map_proto.pbtxt”. This comes with the imageNet2012 validation dataset. |
@@ -56,3 +56,21 @@ The results are saved in the database. One can check the tables *attacktrainingp
 to find the training and testing accuracy. The perturbations are saved in *attack* table, in the column *perturbedimage*.
 
 ![alt text](https://github.com/EldorToptal/SingleClassADV/blob/main/SingleClassADV/attack_main_idea_example-1.png?raw=true)
+
+
+
+## Citation
+We would appreciate it if you cited our work when using our code.
+
+```bibtex
+@ARTICLE{10542231,
+  author={Abdukhamidov, Eldor and Abuhamad, Mohammed and Thiruvathukal, George K. and Kim, Hyoungshick and Abuhmed, Tamer},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={SingleADV: Single-Class Target-Specific Attack Against Interpretable Deep Learning Systems}, 
+  year={2024},
+  volume={19},
+  pages={5985-5998},
+  doi={10.1109/TIFS.2024.3407652}}
+}
+```
+
